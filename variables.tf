@@ -4,7 +4,7 @@ variable "namespace" {
   type = string
 }
 
-variable "principle_arns" {
+variable "principal_arns" {
   description = "A list of principal arns allowed to assume the IAM role"
   default = null
   type = string
